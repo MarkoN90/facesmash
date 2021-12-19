@@ -3,8 +3,8 @@
 $config =  array(
     'db' => array(
         'db_name'  => 'facesmash',
-        'db_user'  => 'facesmash',
-        'password' => 'facesmasher',
+        'db_user'  => 'root',
+        'password' => '',
         'host'     => 'localhost',
         'dbms'     => 'mysql'
     )

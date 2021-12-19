@@ -39,6 +39,7 @@
 }
 
 .image-wrapper {
+    position: relative;
     width: 300px;
     height: 430px;
     display: flex;
@@ -56,6 +57,28 @@
 #choice-separator {
     display: flex;
     align-items: center;
+}
+
+
+.input-group {
+    padding: 10px;
+}
+
+#contenter-form {
+    width: 60%;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(99, 25, 25);
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.contender-info {
+    position: absolute;
+    bottom: -30px;
 }
 
 @media only screen and (max-width: 750px) {
